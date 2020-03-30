@@ -1,0 +1,39 @@
+* {
+    border: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif
+}
+h3 {
+    text-transform: uppercase;
+    font-size: 22pt;
+    text-shadow: 2px 2px 1px black;
+}
+h4 {
+    text-transform: uppercase;
+    color: rgb(241, 241, 173);
+    background-color: rgb(84, 75, 167);
+    font-size: 20pt;
+    text-shadow: 2px 2px 1px black;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+h4:hover {
+    background-color: rgb(10, 9, 73);
+    border: 1px solid white;
+}
+.sepTitle {
+    border: 1px solid white;
+    box-shadow: 2px 2px 5px rgb(15, 18, 197);
+}
+label {
+    font-size: 16pt;
+    text-shadow: 2px 1px black;
+}
+
+#contCabecalho, #contContato, #contObjetivo {
+    display: none;
+}
