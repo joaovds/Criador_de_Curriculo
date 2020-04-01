@@ -6,12 +6,17 @@
 body {
     font-family: 'Times New Roman', Times, serif
 }
+.container {
+    background-color: #444c55;
+    box-shadow: 0 0 100px rgba(3, 3, 3, 0.1);
+}
 h3 {
     text-transform: uppercase;
     font-size: 22pt;
     text-shadow: 2px 2px 1px black;
 }
 h4 {
+    padding-top: 4px;
     text-transform: uppercase;
     color: rgb(241, 241, 173);
     background-color: rgb(84, 75, 167);
@@ -26,14 +31,19 @@ h4:hover {
     border: 1px solid white;
 }
 .sepTitle {
-    border: 1px solid white;
-    box-shadow: 2px 2px 5px rgb(15, 18, 197);
+    border: 1px solid rgba(174, 178, 236, 0.692);
+    box-shadow: 2px 2px 8px rgb(0, 0, 0);
+}
+hr {
+    border: 0.5px solid rgba(255, 235, 205, 0.76);
+    box-shadow: 1px 1px 2px black;
 }
 label {
     font-size: 16pt;
     text-shadow: 2px 1px black;
 }
 
-#contCabecalho, #contContato, #contObjetivo {
+#contCabecalho, #contContato, #contObjetivo, #contFormacao,
+#contExperiencias, #contRefer, #contHabilidades {
     display: none;
 }

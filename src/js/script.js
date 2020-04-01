@@ -1,11 +1,11 @@
 function mostrar(selectDiv) {
 
-    var display = document.getElementById(selectDiv).style.display;
+    let display = document.getElementById(selectDiv).style.display;
     
     if (display == "none") {
-        display = 'flex';
+        document.getElementById(selectDiv).style.display = 'flex';
     }
     else {
-        display = 'none'
+        document.getElementById(selectDiv).style.display = 'none'
     }
 }
